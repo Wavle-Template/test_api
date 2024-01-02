@@ -1,0 +1,150 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2022",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@app/entity": [
+        "libs/entity/src"
+      ],
+      "@app/entity/*": [
+        "libs/entity/src/*"
+      ],
+      "@app/b-chat": [
+        "libs/b-chat/src"
+      ],
+      "@app/b-chat/*": [
+        "libs/b-chat/src/*"
+      ],
+      "@app/chat": [
+        "libs/chat/src"
+      ],
+      "@app/chat/*": [
+        "libs/chat/src/*"
+      ],
+      "@app/user": [
+        "libs/user/src"
+      ],
+      "@app/user/*": [
+        "libs/user/src/*"
+      ],
+      "@app/auth": [
+        "libs/auth/src"
+      ],
+      "@app/auth/*": [
+        "libs/auth/src/*"
+      ],
+      "@app/search": [
+        "libs/search/src"
+      ],
+      "@app/search/*": [
+        "libs/search/src/*"
+      ],
+      "@app/notification": [
+        "libs/notification/src"
+      ],
+      "@app/notification/*": [
+        "libs/notification/src/*"
+      ],
+      "@app/firebase": [
+        "libs/firebase/src"
+      ],
+      "@app/firebase/*": [
+        "libs/firebase/src/*"
+      ],
+      "@app/file": [
+        "libs/file/src"
+      ],
+      "@app/file/*": [
+        "libs/file/src/*"
+      ],
+      "@app/community": [
+        "libs/community/src"
+      ],
+      "@app/community/*": [
+        "libs/community/src/*"
+      ],
+      "@app/phone-auth/*": [
+        "libs/phone-auth/src/*"
+      ],
+      "@app/phone-auth": [
+        "libs/phone-auth/src"
+      ],
+      "@app/toast": [
+        "libs/toast/src"
+      ],
+      "@app/toast/*": [
+        "libs/toast/src/*"
+      ],
+      "@app/setting": [
+        "libs/setting/src"
+      ],
+      "@app/setting/*": [
+        "libs/setting/src/*"
+      ],
+      "@app/service-manage": [
+        "libs/service-manage/src"
+      ],
+      "@app/service-manage/*": [
+        "libs/service-manage/src/*"
+      ],
+      "@app/follow-generate": [
+        "libs/follow-generate/src"
+      ],
+      "@app/follow-generate/*": [
+        "libs/follow-generate/src/*"
+      ],
+      "@app/match": [
+        "libs/match/src"
+      ],
+      "@app/match/*": [
+        "libs/match/src/*"
+      ],
+      "@app/find-account": [
+        "libs/find-account/src"
+      ],
+      "@app/find-account/*": [
+        "libs/find-account/src/*"
+      ],
+      "@app/common-chat-res": [
+        "libs/common-chat-res/src"
+      ],
+      "@app/common-chat-res/*": [
+        "libs/common-chat-res/src/*"
+      ],
+      "@test/utils/*": [
+        "test/utils/*"
+      ],
+      "@app/microservice": [
+        "libs/microservice/src"
+      ],
+      "@app/microservice/*": [
+        "libs/microservice/src/*"
+      ],
+      "@app/mailer": [
+        "libs/mailer/src"
+      ],
+      "@app/mailer/*": [
+        "libs/mailer/src/*"
+      ]
+    }
+  }
+}

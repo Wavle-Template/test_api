@@ -1,0 +1,2 @@
+export const PHONE_AUTH_REDIST = "PHONE_AUTH_REDIST";
+export const PHONE_AUTH_REDIST_DB_INDEX = 10;
